@@ -1,6 +1,12 @@
 # 博客一键部署版
 博客原地址：https://github.com/Yipartner/pub2.0
 
+## docker版本要求
+  - docker version：17.0+
+    - 按官网的docker-ce安装步骤来
+  - docker-compose:1.17.1+
+    - apt-get install docker-compose
+    
 ## 使用说明
   - git clone 
   - 修改.env中的相关环境变量
