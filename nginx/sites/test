@@ -1,7 +1,7 @@
 server {
     listen 80;
     listen [::]:80;
-    root /var/www/html/test;
+    root /var/www/html/pub2.0/public;
     index index.html index.php;
     server_name _;
     location / {
