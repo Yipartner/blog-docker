@@ -1,8 +1,7 @@
 # dnmp
+## nginx
 
-# nginx
-
-# mysql
-
-# php-fpm
-  - version: 7.0
+## mysql
+  - version: 8.0
+## php-fpm
+  - version: 7.2
