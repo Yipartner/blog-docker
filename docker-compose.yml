@@ -20,6 +20,8 @@ services:
             PUB_DATABASE: '${PUB_DATABASE}'
             BLOG_NAME: '${BLOG_NAME}'
             BLOG_HOME_NAME: '${BLOG_HOME_NAME}'
+            BLOG_ADMIN_EMAIL: '${BLOG_ADMIN_EMAIL}'
+            BLOG_ADMIN_PASSWORD: '${BLOG_ADMIN_PASSWORD}'
         volumes:
             - ./www:/var/www/html
             - ./php/:/bitnami/php/conf/

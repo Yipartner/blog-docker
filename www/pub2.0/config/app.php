@@ -14,6 +14,8 @@ return [
 
     'name' => env('BLOG_NAME', '小伙伴的博客'),
     'home_name' => env('BLOG_HOME_NAME','MariaSeal\'s Pub'),
+    'admin_email'=>env('BLOG_ADMIN_EMAIL','1350690718@qq.com'),
+    'admin_password'=>env('BLOG_ADMIN_PASSWORD','123456'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -104,7 +106,7 @@ return [
     */
 
     'key' => env('APP_KEY'),
-
+    'faker_locale'=>'zh_CN',
     'cipher' => 'AES-256-CBC',
 
     /*
