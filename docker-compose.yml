@@ -17,6 +17,7 @@ services:
             DB_HOST: mysql
             DB_USERNAME: '${DB_USERNAME}'
             DB_PASSWORD: '${DB_PASSWORD}'
+            PUB_DATABASE: '${PUB_DATABASE}'
         volumes:
             - ./www:/var/www/html
             - ./php/:/bitnami/php/conf/
