@@ -67,11 +67,11 @@
 
                     </ul>
                 </li>
-                <li>
-                    <a href="http://she.sealbaby.cn">
-                        她
-                    </a>
-                </li>
+                {{--<li>--}}
+                    {{--<a href="http://she.sealbaby.cn">--}}
+                        {{--她--}}
+                    {{--</a>--}}
+                {{--</li>--}}
             </ul>
 
             <!-- Right Side Of Navbar -->

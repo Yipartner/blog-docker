@@ -12,8 +12,8 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => '小伙伴的博客',
-
+    'name' => env('BLOG_NAME', '小伙伴的博客'),
+    'home_name' => env('BLOG_HOME_NAME','MariaSeal\'s Pub'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
