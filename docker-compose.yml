@@ -18,6 +18,8 @@ services:
             DB_USERNAME: '${DB_USERNAME}'
             DB_PASSWORD: '${DB_PASSWORD}'
             PUB_DATABASE: '${PUB_DATABASE}'
+            BLOG_NAME: '${BLOG_NAME}'
+            BLOG_HOME_NAME: '${BLOG_HOME_NAME}'
         volumes:
             - ./www:/var/www/html
             - ./php/:/bitnami/php/conf/
