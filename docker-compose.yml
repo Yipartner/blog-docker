@@ -15,9 +15,8 @@ services:
         image: 'bitnami/php-fpm:7.2'
         environment:
             DB_HOST: mysql
-            DB_USERNAME: root
-            DB_PASSWORD: 123456
-            DB_DATABASE: pub
+            DB_USERNAME: '${DB_USERNAME}'
+            DB_PASSWORD: '${DB_PASSWORD}'
         volumes:
             - ./www:/var/www/html
             - ./php/:/bitnami/php/conf/
@@ -28,7 +27,7 @@ services:
         image: mysql
         restart: always
         environment:
-            MYSQL_ROOT_PASSWORD: 123456
+            MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
         volumes:
             - ./mysql:/var/lib/mysql
             - ./my.cnf:/etc/mysql/my.cnf
