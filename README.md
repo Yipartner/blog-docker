@@ -4,7 +4,7 @@
 ## 使用说明
   - git clone 
   - 修改.env中的相关环境变量
-  - 执行install.bash
+  - 执行install.bash（建议在root用户下执行，因为包含文件创建操作）
   
 ## nginx
   - 目录结构
