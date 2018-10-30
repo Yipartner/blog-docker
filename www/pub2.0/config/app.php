@@ -16,6 +16,7 @@ return [
     'home_name' => env('BLOG_HOME_NAME','MariaSeal\'s Pub'),
     'admin_email'=>env('BLOG_ADMIN_EMAIL','1350690718@qq.com'),
     'admin_password'=>env('BLOG_ADMIN_PASSWORD','123456'),
+    'home_picture_url'=>env('HOME_PICTURE','http://picture.sealbaby.cn/fasi.jpeg'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment

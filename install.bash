@@ -14,4 +14,5 @@ echo "BLOG_HOME_NAME=$BLOG_HOME_NAME" >> ./www/pub2.0/.env
 echo "BLOG_ADMIN_EMAIL=$BLOG_ADMIN_EMAIL" >> ./www/pub2.0/.env
 echo "BLOG_ADMIN_PASSWORD=$BLOG_ADMIN_PASSWORD" >> ./www/pub2.0/.env
 echo "BLOG_NAME=$BLOG_NAME" >> ./www/pub2.0/.env
+echo "HOME_PICTURE=$HOME_PICTURE" >> ./www/pub2.0/.env
 echo "SUCCESS INSTALL 0(^_^)0"
