@@ -29,3 +29,7 @@
 ## php-fpm
   - version: 7.2
   - 自带composer
+
+## 博客说明
+  - 框架：laravel
+  - 如需修改配置请直接修改./www/pub2.0/.env文件
